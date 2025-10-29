@@ -2,29 +2,43 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .container {
-    width: 60vw;
-    height: 60vh;
+    width: 25rem;
+    height: 40rem;
     display: flex;
     flex-flow: column wrap;
+    justify-content: space-between;
 }
 
 
 .calc_display {
     width: 100%;
-    height: 15vh;
+    height: 22vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
 }
 
 .calc_buttons {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-evenly;
 }
 
 .calc_button {
-    width: 5vw;
-    height: 5vh;
-    text-align: center;
-    border: 1px yellowgreen solid;
+    width: 5rem;
+    height: 5rem;
+    border: 5px yellowgreen solid;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: none;
+    border-radius: 1rem;
 }
