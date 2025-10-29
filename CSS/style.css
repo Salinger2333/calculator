@@ -1,3 +1,30 @@
-.container {
+body {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 60vw;
+    height: 60vh;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+
+.calc_display {
+    width: 100%;
+    height: 15vh;
+}
+
+.calc_buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calc_button {
+    width: 5vw;
+    height: 5vh;
+    text-align: center;
+    border: 1px yellowgreen solid;
 }
